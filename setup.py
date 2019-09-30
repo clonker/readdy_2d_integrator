@@ -72,7 +72,7 @@ setup(
     name='readdy-2d-integrator',
     version='0.0.1',
     author='Moritz Hoffmann',
-    ext_modules=[CMakeExtension('readdy-2d-integrator')],
+    ext_modules=[CMakeExtension('readdyextension')],
     cmdclass=dict(build_ext=CMakeBuild),
     zip_safe=False,
 )
